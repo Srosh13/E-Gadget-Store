@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Gadget Store</title>
+    <link rel="stylesheet" href="Gadget.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Gadget Store/logo.png" alt="logo" width="200px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">                                            
+                        <li><a href="Gadget Store.html"><b>HOME</b></a></li>
+                        <li><a href="product.php"><b>PRODUCTS</b></a></li>
+                        <li><a href="about.php"><b>ABOUT</b></a></li>
+                        <li><a href="contact.php"><b>CONTACT</b></a></li>
+                        <li><a href="account.php"><b>ACCOUNT</b></a></li>
+                    </ul>
+                </nav>
+                <img src="Gadget Store/cart.png" alt="" width="30px" height="30px">
+                <img src="Gadget Store/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>  
+            <div class="row">
+                <div class="col-2">
+                    <h1>  Shop Now And <br>Elevate Your Lifestyle!</h1>
+                <p>Embrace consistency in tech exploration;<br>it paves the path to triumphant greatness.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="Gadget Store/image1.png" alt="">
+                </div>
+            </div>
+                <!-------------featured catogories------------->
+    <div class="catogories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Gadget Store/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="Gadget Store/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="Gadget Store/category-3.jpg" alt="">
+                </div>
+            </div>
+    </div>
+    
+    <!--------------featured products--------------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Gadget Store/product-1.jpg" alt="">
+                <h4>Samsung [SmartChoice] Galaxy Book2 Pro Intel 12th Gen i7 EvoTM 33.78cm (13.3") AMOLED Thin & Light Laptop</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p style="color: green;">-30% OFF</p><p> ₹ 1,02,490</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-2.jpg" alt="">
+                <h4>Apple 2023 Mac Mini Desktop Computer M2 chip with 8‑core CPU and 10‑core GPU, 8GB Unified Memory, 256GB SSD Storage, Works with iPhone/iPad</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div><div class="col-4">
+                <img src="Gadget Store/product-3.jpg" alt="">
+                <h4>Nothing Phone (2) 5G (Dark Grey, 12GB RAM, 512GB Storage) Android 13, Nothing OS 2.0
+                    Cellular Technology	5G+5G, 4G LTE</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-4.jpg" alt="">
+                <h4>Apple Watch Ultra [GPS + Cellular 49 mm] smart watch w/Rugged Titanium Case & Starlight Alpine Loop Medium Fitness Tracker, Precision GPS, Action Button</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Gadget Store/product-5.jpg" alt="">
+                <h4>Flyzad Remote Control Drone with Dual Camera HD Wide ngle Lens Optical Flow Positioning with Dual 1800Mah Battery WiFi Dual Camera with Dual Flash (balck)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-6.jpg" alt="">
+                <h4>boAt Rockerz 255 Pro+ Bluetooth in Ear Earphones with Upto 60 Hours Playback, ASAP Charge, IPX7, Dual Pairing and Bluetooth v5.0(Active Black)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div><div class="col-4">
+                <img src="Gadget Store/product-7.jpg" alt="">
+                <h4>Apple AirPods (3rd Generation) with Lightning Charging Case All-new contoured design Spatial audio with dynamic head tracking places around you</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-8.jpg" alt="">
+                <h4>Acer Nitro QG271 27 inch Full HD Gaming LCD Monitor with LED Back Light I VA Panel I 1 MS VRB I 100 Hz Refresh I 250 Nits I AMD Free Sync I 1 x VGA 2 x HDMI Ports</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-9.jpg" alt="">
+                <h4>iQOO Neo 7 5G (Frost Blue, 8GB RAM, 128GB Storage) | Dimensity 8200, only 4nm Processor in The Segment | 50% Charge in 10 mins | Motion Control & 90 FPS Gaming</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-10.jpg" alt="">
+                <h4>OnePlus Nord 3 5G (Misty Green, 8GB RAM, 128GB Storage) Camera: 50MP Main Camera with Sony IMX890 Display: 6.74 Inches; 120 Hz AMOLED FHD+ Display</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div><div class="col-4">
+                <img src="Gadget Store/product-11.jpg" alt="">
+                <h4>realme narzo 60 Pro (Mars Orange,12GB+1TB) Ultra Smooth 120 Hz Super Amoled Curved Display | 100 MP OIS Camera Immerse yourself 120 Hz curved display. </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Gadget Store/product-12.jpg" alt="">
+                <h4>Samsung Galaxy S21 FE 5G (Graphite, 8GB, 128GB Storage) Pro-grade Camera with AI Single Take 5G Ready with Octa-core Exynos 2100 (5nm) Android 12 </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+     </div>
+</div>
+<!----------offer--------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="Gadget Store/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                 <p>Exclusively Available On E-Gatget Store </p>
+                 <h1>Samsung Galaxy Watch 6</h1>
+                 <small><ul>No Cost EMI starts from ₹ 1532.04/ month</ul>
+                        <ul>A big, circular view on your wrist</ul>
+                        <ul>Develop healthy sleeping habits</ul>
+                        <ul>Get detailed insights on your body and wellness</ul>
+                    </small>
+                 <a href="" class="btn">BUY NOW &#8594;</a>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!---------testimonial---------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-qoute-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam harum explicabo alias quod accusantium reprehenderit. Doloribus id a excepturi tenetur? Nobis, magnam hic culpa itaque iusto quasi dolorum illo.</p>                    
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Gadget Store/user-1.png" alt="">
+                    <h3>User-1</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-qoute-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam harum explicabo alias quod accusantium reprehenderit. Doloribus id a excepturi tenetur? Nobis, magnam hic culpa itaque iusto quasi dolorum illo.</p>                    
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Gadget Store/user-2.png" alt="">
+                    <h3>User-2</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-qoute-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam harum explicabo alias quod accusantium reprehenderit. Doloribus id a excepturi tenetur? Nobis, magnam hic culpa itaque iusto quasi dolorum illo.</p>                    
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Gadget Store/user-3.png" alt="">
+                    <h3>User-3</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+<!------------brands-------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="Gadget Store/logo-samsung.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="Gadget Store/logo-apple.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="Gadget Store/logo-acer.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="Gadget Store/logo-oneplus.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="Gadget Store/logo-oppo.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!---------------footer------------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="Gadget Store/play-store.png" alt="">
+                        <img src="Gadget Store/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Gadget Store/logo-white.png">
+                    <p>Our mission is to ingeniously blend technology with sustainability, making the joy and advantages of sports accessible to all through innovative Ecommerce solutions.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-14">
+                    <h3>FOLLOW US ON</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <P class="copyright">copyright 2024 - E-Gadget Store</P>
+        </div>
+    </div>
+    <!---js for toggle--->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+       
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                MenuItems.style.maxHeight = "200px";
+               }
+            else {
+                MenuItems.style.maxHeight = "0px";
+                }
+        
+        }
+    </script>
+</body>
+</html>
+
